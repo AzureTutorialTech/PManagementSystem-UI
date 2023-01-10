@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  personManagementApi:'https://localhost:7119/api/person',
+  errorMessageDurationSeconds:3
 };
 
 /*
